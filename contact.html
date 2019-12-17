@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content= "width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Contact</title>
+        <!-- Header Content -->
+        <div class="row row1">
+            <div class="col-md-3 namecontainer">
+                <div class="namebox">
+                    Matt Benson
+                </div>
+            </div>
+            <div class="col-md-5 d-none d-md-block blankbox">   
+            </div>
+            <div class="col-md-4 linkbox">
+                <nav class="navbar navbar-expand-sm bg-white justify-content-center">
+                    <div class="links">
+                        <a class="linklines index" href="index.html">About</a>
+                        <a class="linklines portfolio" href="Portfolio.html">Portfolio</a>
+                        <a class="linklines contact" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+            <!-- Header Style -->
+            <style>
+            
+            .row1 {
+                margin-left: 0;
+                height: 100px;
+                width: 100%;
+                border-bottom: 2px solid #cccccc;
+                background-color:#ffffff;
+            }
+            .namecontainer {
+                padding-right: 0;
+            }
+            .namebox {
+                background-color: #4aaaa5;
+                color: #ffffff;
+                text-align: center;
+                font-size: 28px;
+                line-height: 98px;
+                margin-left: 20px;
+        
+            }
+        
+            .portfolio {
+                padding-left: 5px;
+                padding-right: 5px;
+                border-right: 1px solid black;
+                border-left: 1px solid black;
+            }
+            .linkbox {
+                padding: 0;
+            }
+            .links {
+                text-align: center;
+                float: center;
+                margin: 0;
+                padding: 0;    
+            }
+            .navbar {
+                background-color: #dddddd;
+                line-height: 98px;
+                margin: 0;
+                padding: 0;
+            }
+            .linklines:hover {
+                font-size: 20px;
+                color: purple;
+            }
+            .index .portfolio .contact:visited {
+                color: purple
+            }
+        
+            @media (max-width: 640px) {
+        
+                head {
+                    height: 200px;
+                }
+                .row1 {
+                    height: 200px;
+                }
+                .namecontainer {
+                    padding: 0;
+                }
+                .namebox {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    border-bottom: 0 0 0
+                }
+                .links {
+                    width: 100%;
+                    background-color:#ffffff;
+                    height: 50%;
+                    text-align: center;
+                    border-bottom: 1px solid #cccccc;
+                }
+                .linklines {
+                    text-align: center;
+                }
+                @media (max-width: 768px){
+                    .blankbox {
+                        display: none;
+                    }
+                }
+            }
+                </style>
+</head>
+<!-- Contact Box -->
+<body>
+    <div class= "row row2">
+        <div class="col-md-8 containerbox">
+            <div class ="row row2a">
+                <div class= "col-md-12">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <!-- Content Entry -->
+            <div class="row row2b">
+                <div class="col-md-12">
+                    <form action="action_page.php">
+      
+                            <label class="field" for="name">Name</label>
+                            <br>
+                            <input class="textbox" type="text" id="name" name="name" placeholder="John Smith">
+                              <br>
+                            <label class="field" for="email">Email</label>
+                            <br>
+                            <input class="textbox" type="text" id="email" name="email" placeholder="example@gmail.com">
+                            <br>
+                            <label class="field" for="message">Message</label>
+                            <br>
+                              <textarea class="messagebox" name="message" placeholder="" style="height:200px"></textarea>
+                              <br>
+                            <input class="submitbutton" type="submit" value="Submit">
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="container">
+              <span class="text-muted">copyright ©</span>
+            </div>
+        </footer>
+    </div>
+    
+<!-- Body Style -->
+    <style>
+        body {
+            background-image: url("images/trees.png");
+        }
+        .row2 {
+            margin-top: 20px;
+        }
+        .containerbox {
+            background-color: #ffffff;
+            margin-left: 45px;
+            position: absolute;
+        }
+        h2 {
+            font-size: 30px;
+            color: #4aaaa5;
+            line-height: 50px;
+            padding-left: 15px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .row2b {
+            padding-left: 15px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-top: 1px solid #dddddd;
+
+        }
+        .field {
+            font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            color: #777777; 
+}
+
+        .textbox {
+            width: 90%;
+}
+        .messagebox {
+            height: 200px;
+            width: 90%;
+            margin: auto;
+}
+        .submitbutton {
+            background-color: #4aaaa5;
+            color: #ffffff;
+            padding: 5px 10px 5px 10px;
+}
+        .submitbutton:active {
+            background-color: purple;
+            }
+        .footer {
+        position: fixed;
+        bottom: 0;
+        background-color: #666666;
+        border-top: 8px solid #4aaaa5;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        }
+/* Body Tablet size */
+@media (max-width: 768px) and (min-width: 640px) {
+    .row2 {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .row2b {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .field .textbox .messagebox {
+        width: 95%
+    }
+@media (max-width: 768px){
+   .blankbox {
+       display: none;
+   }
+}
+@media (max-width: 640px){
+    .containerbox {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 80%;
+    }
+}
+}
+    </style>
+
+    
+</body>
+</html>

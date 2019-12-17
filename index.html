@@ -1,1 +1,218 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content= "width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>index</title>
+    <!-- Header Content -->
+    <div class="row row1">
+        <div class="col-md-3 namecontainer">
+            <div class="namebox">
+                    Matt Benson
+            </div>
+        </div>
+        <div class="col-md-5 blankbox .d-md-block">   
+        </div>
+        <div class="col-md-4 linkbox">
+            <nav class="navbar navbar-expand-sm bg-white justify-content-center">
+                <div class="links">
+                    <a class="linklines" href="index.html">About</a>
+                    <a class="linklines portfolio" href="Portfolio.html">Portfolio</a>
+                    <a class="linklines" href="contact.html">Contact</a>
+                </div>
+            </nav>
+    </div>
+   
+    <!-- Header Style -->
+    <style>
+    
+    .row1 {
+        margin-left: 0;
+        height: 100px;
+        width: 100%;
+        border-bottom: 2px solid #cccccc;
+        background-color:#ffffff;
+    }
+    .namecontainer {
+        padding-right: 0;
+    }
+    .namebox {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        line-height: 98px;
+        margin-left: 20px;
+
+    }
+
+    .portfolio {
+        padding-left: 5px;
+        padding-right: 5px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    .linkbox {
+        padding: 0;
+    }
+    .links {
+        text-align: center;
+        float: center;
+        margin: 0;
+        padding: 0;    
+    }
+    .navbar {
+        background-color: #dddddd;
+        line-height: 98px;
+        margin: 0;
+        padding: 0;
+    }
+    .linklines:hover {
+        font-size: 20px;
+        color: purple;
+    }
+
+    @media (max-width: 640px) {
+
+        head {
+            height: 200px;
+        }
+        .row1 {
+            height: 200px;
+        }
+        .namebox {
+            width: 100%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: 0 0 0;
+            margin-left: 0;
+        }
+        .links {
+            width: 100%;
+            background-color:#ffffff;
+            height: 50%;
+            text-align: center;
+            border-bottom: 1px solid #cccccc;
+        }
+        .linklines {
+            text-align: center;
+        }
+        .namecontainer {
+            padding-left: 0;
+        }
+    }
+        </style>
+    
+
+</head>
+<!-- About Me -->
+<body>
+    <div class="row border row2">
+        <div class="col-lg-8 border white contentbox">
+            <div class="row row2a">
+                <div class="col-lg-12 aboutme">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row row2b">
+                <div class="col-lg-4 mattbox">
+                        <img class="matt" src="images/matt.jpg" alt="Matt at Work">
+                </div>
+                <div class="col-lg-8">
+                    <p>
+                        I was born and raised in the Pacific Northwest, and attained a bachelors degree in Political Science from Western Washington University. 
+                        Upon graduating I got a job at Costco Travel, and then worked as a Tax Accountant for a few years before joining the international buying office in 2018. 
+                        Now I am taking the coding bootcamp to learn technical skills and to take a job as a developer upon graduation.
+                        </p>
+                        <br>
+                        <p>
+                            I like to spend most of my free time outside, usually either running or hiking. In the past couple of years I have gotten more into trail races, competing in several each year during the summer. 
+                            The primary race distances I compete in are the 10K and half marathon. 
+                            In the past few years I have gotten into rock climbing as well. 
+                            I climbed the Tooth up at Snoqualmie pass this past summer, which required technical rock climbing skills and protective gear placements. 
+                            I also enjoy traveling in my spare time, the most recent destinations being Costa Rica, Australia, and New Zealand.
+                        </p>
+                </div>
+            </div>
+            <div class="row row2c">
+                <div class="col-lg-12">
+                    <p>
+                            In this portfolio you would usually find pics of the projects I've been working on. 
+                            Since most of these projects remain beyond my skill level, I have instead included some pictures of my friends dogs for your enjoyment.
+                            Also included is a contact window that doesnt work, thank you for stopping by!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- body Style -->
+    <style>
+    body {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-image: url("images/trees.png");
+    }
+
+    .row2 {
+        padding-left: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: #4aaaa5;
+        line-height: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+        border-bottom: 1px solid #dddddd;
+    }
+    .contentbox{
+        background-color:#ffffff;
+        margin-left: 30px;
+
+    }
+
+    .matt {
+        width: 100%;
+        height: auto;
+        border: 1px solid #dddddd;
+        position: center;
+    }
+    .mattbox {
+        padding: 0;
+    }
+    .matt:hover {
+        opacity: 90%;
+    }
+    .footer {
+        bottom: 0;
+        background-color: #666666;
+        border-top: 8px solid #4aaaa5;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+}
+    .text-muted {
+        color: #ffffff;
+    }
+
+
+
+
+
+    
+    </style>
+    <footer class="footer">
+            <div class="container">
+              <span class="text-muted">copyright ©</span>
+            </div>
+          </footer>
+</body>
+</html>
